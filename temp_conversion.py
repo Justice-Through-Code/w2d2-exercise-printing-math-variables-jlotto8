@@ -18,9 +18,9 @@ def convert_100_to_celsius():
 
 def convert_0_to_celsius():
     # Convert a temperature of 0 degrees fahrenheit to celsius
-    (0-32) * (5/9)
+    (0-32) * 5/9
     # Save this to a variable called celsius_0, and use print() to print out the value
-    celsius_0 = -17.777
+    celsius_0 = (0-32) * 5/9
     print(celsius_0)
 
 # convert_0_to_celsius()
@@ -29,7 +29,8 @@ def convert_34_2_to_celsius():
     # Convert a temperature of 34.2 degrees fahrenheit to celsius
     # (34.2-100) * (5/9)
     # Do this one all in one print statement without saving any variables
-    print(34.2 - 100 * 5/9)
+    # print(34.2 - 100 * 5/9)
+    print((34.2-32) * 5/9)
 # convert_34_2_to_celsius()
 
 # Now, can you convert back?
@@ -37,7 +38,8 @@ def convert_34_2_to_celsius():
 
 def convert_5_to_fahrenheit():
     # Convert a temperature of 5 degrees celsius to fahrenheit and print it out
-    print((5 * 9/5 + 32))
+    # print((5 * 9/5 + 32))
+    print(5 * 1.8 + 32)
 # convert_5_to_fahrenheit()
 
 def hotter_temp():
