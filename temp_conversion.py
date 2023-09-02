@@ -20,7 +20,7 @@ def convert_34_2_to_celsius():
 '''
 Now, can you convert back?
 '''
-def convert_5_to_fareinheit():
+def convert_5_to_fahrenheit():
     # Convert a temperature of 5 degrees celsius to fahrenheit and print it out
     print((5 * 9 / 5) + 32)
 def hotter_temp():
